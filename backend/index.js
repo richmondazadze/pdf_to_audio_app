@@ -8,7 +8,7 @@ const path = require("path");
 const app = express();
 const upload = multer({ dest: "uploads/" });
 
-app.use(express.static("public"));
+app.use(express.static("uploads"));
 
 app.post("/upload", upload.single("file"), async (req, res) => {
   try {
@@ -29,6 +29,7 @@ app.post("/upload", upload.single("file"), async (req, res) => {
   }
 });
 
-app.listen(5000, () => {
-  console.log("Server is running on http://localhost:5000");
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
 });
