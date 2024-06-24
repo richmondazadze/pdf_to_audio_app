@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pdf_to_audio_app/static/css/main.f855e6bc.css",
+    "main.js": "/pdf_to_audio_app/static/js/main.b7fa4851.js",
+    "static/js/453.8ab44547.chunk.js": "/pdf_to_audio_app/static/js/453.8ab44547.chunk.js",
+    "index.html": "/pdf_to_audio_app/index.html",
+    "main.f855e6bc.css.map": "/pdf_to_audio_app/static/css/main.f855e6bc.css.map",
+    "main.b7fa4851.js.map": "/pdf_to_audio_app/static/js/main.b7fa4851.js.map",
+    "453.8ab44547.chunk.js.map": "/pdf_to_audio_app/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.b7fa4851.js"
+  ]
+}
